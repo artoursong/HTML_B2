@@ -6,63 +6,485 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/fontawesome-free-6.2.0-web/css/all.min.css">
+
     <title>Document</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="header_navbar">
-            <div class="container header_container">
-                <a class="header_logo">
-                    <img src="img/logo-dark.png" alt="Cartzilla">
+    <header>
+        <div class="header-navbar">
+            <div class="container header-container">
+                <a class="logo">
+                    <img src="img/logo-dark.png" width="142" alt="Cartzilla">
                 </a>
-                <ul class="header_menu">
-                    <li class="header_menu-item">Home</li>
-                    <li class="header_menu-item">Shop</li>
-                    <li class="header_menu-item">Account</li>
-                    <li class="header_menu-item">Pages</li>
-                    <li class="header_menu-item">Blog</li>
-                    <li class="header_menu-item">Docs/Components</li>
+                <ul class="menu">
+                    <li style="color: #fe696a;" class="menu-item">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">Shop</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">Account</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">Pages</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">Blog</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">Docs / Components</a>
+                    </li>
                 </ul>
-                <button class="header_button">
-                    <a class="header_button-buy">
-                        <i class="fa-solid fa-cart-shopping"></i> Buy Now
+                <button class="button">
+                    <a class="button-buy">
+                        <i style="font-size: 10px; margin-right: 8px" class="fa-solid fa-cart-shopping"></i> Buy now
                     </a>
                 </button>
             </div>
         </div>
     </header>
 
-    <section class="section_hero">
-        <div class="container hero_container">
-            <div class="hero_content">
-                <div class="hero_content_items">
-                    <div class="hero_content_header">
-                        <span class="hero_content_header_text_normal">Multipurpose</span>
-                        <span class="hero_content_header_text_bold">Bootstrap 5</span>
-                        <span class="hero_content_header_text_normal">E-Commerce</span>
-                        <span class="hero_content_header_text_bold">Template</span>
+    <main>
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="content-items">
+                        <div class="content-header">
+                            <div class="content-header-items">
+                                <span class="text-normal">Multipurpose</span>
+                                <span class="text-bold">Bootstrap 5</span>
+                            </div>
+                            <div class="content-header-items">
+                                <span class="text-bold">E-Commerce</span>
+                                <span class="text-normal">Template</span>
+                            </div>
+                        </div>
+                        <div class="content-text-items">
+                            <span class="content-item-1">Single / Multi-vendor</span>
+                            <span class="content-item-2">Marketplace</span>
+                            <span style="font-size: 24px" class="content-item-1">Fashion</span>
+                            <span class="content-item-2">Electronics</span>
+                            <span style="font-size: 17px" class="content-item-1">Cart</span>
+                        </div>
+                        <div class="content-text-items">
+                            <span class="content-item-2">NFT</span>
+                            <span class="content-item-1">Checkout</span>
+                            <span class="content-item-2">Grocery store</span>
+                            <span style="font-size: 18px; margin-bottom: 0px;" class="content-item-1">Account /
+                                Dasboard</span>
+                            <span style="font-size: 24px;" class="content-item-2">Food Delivery</span>
+                        </div>
+                        <div class="button">
+                            <a class="view-button">View Demos
+                                <i style="font-size:15px; margin-left: 8px" class="fa">&#xf0ab;</i>
+                            </a>
+                        </div>
                     </div>
-                    <span class="hero_content_item">Single/ Multi-vendor</span>
-                    <span class="hero_content_item">Marketplaceplace</span>
-                    <span class="hero_content_item">Fashion</span>
-                    <span class="hero_content_item">Electronicscs</span>
-                    <span class="hero_content_item">Cart</span>
-                    <span class="hero_content_item">NFT</span>
-                    <span class="hero_content_item">Checkout</span>
-                    <span class="hero_content_item">Grocery store</span>
-                    <span class="hero_content_item">Account / Dashboardboard</span>
-                    <span class="hero_content_item">Food Delivery</span>
-                    <div>
-                        <a class="hero_button">View Demos</a>
+                </div>
+        </section>
+
+        <section class="demo">
+            <div class="container demo-container">
+                <div class="demo-header">
+                    <div class="text-center">
+                        <p class="text-center-item-1">
+                            Explore
+                        </p>
+                        <p class="text-center-item-2">
+                            Cartzilla Demos
+                        </p>
+                    </div>
+                    <div class="header-text">
+                        <p>Explore the collection of carefully built homepages. More to come soon!</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="content-items">
+                        <div class="content-item">
+                            <div class="img-item">
+                                <div class="card-hidden-container">
+                                    <div class="card-hidden">
+                                        <a class="hidden-button">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a class="hidden-button">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <img src="img/08.jpg" class="img">
+                            </div>
+                            <div class="text-item">
+                                <span class="img-text">NFT Marketplace</span>
+                            </div>
+                        </div>
+
+                        <div class="content-item">
+                            <div class="img-item">
+                                <div class="card-hidden-container">
+                                    <div class="card-hidden">
+                                        <a class="hidden-button">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a class="hidden-button">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <img src="img/01.jpg" class="img">
+                            </div>
+                            <div class="text-item">
+                                <span class="img-text">Fashion Store v.1</span>
+                            </div>
+                        </div>
+                        <div class="content-item">
+                            <div class="img-item">
+                                <div class="card-hidden-container">
+                                    <div class="card-hidden">
+                                        <a class="hidden-button">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a class="hidden-button">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <img src="img/02.jpg" class="img">
+                            </div>
+                            <div class="text-item">
+                                <span class="img-text">Electronics Store</span>
+                            </div>
+                        </div>
+                        <div class="content-item">
+                            <div class="img-item">
+                                <div class="card-hidden-container">
+                                    <div class="card-hidden">
+                                        <a class="hidden-button">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a class="hidden-button">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <img src="img/03.jpg" class="img">
+                            </div>
+                            <div class="text-item">
+                                <span class="img-text">Food Delivery Service</span>
+                            </div>
+                        </div>
+                        <div class="content-item">
+                            <div class="img-item">
+                                <div class="card-hidden-container">
+                                    <div class="card-hidden">
+                                        <a class="hidden-button">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a class="hidden-button">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <img src="img/04.jpg" class="img">
+                            </div>
+                            <div class="text-item">
+                                <span class="img-text">Multi-vendor Marketplace</span>
+                            </div>
+                        </div>
+                        <div class="content-item">
+                            <div class="img-item">
+                                <div class="card-hidden-container">
+                                    <div class="card-hidden">
+                                        <a class="hidden-button">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a class="hidden-button">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <img src="img/05.jpg" class="img">
+                            </div>
+                            <div class="text-item">
+                                <span class="img-text">Grocery Store</span>
+                            </div>
+                        </div>
+                        <div class="content-item">
+                            <div class="img-item">
+                                <div class="card-hidden-container">
+                                    <div class="card-hidden">
+                                        <a class="hidden-button">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a class="hidden-button">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <img src="img/06.jpg" class="img">
+                            </div>
+                            <div class="text-item">
+                                <span class="img-text">Fashion Store v.2</span>
+                            </div>
+                        </div>
+                        <div class="content-item">
+                            <div class="img-item">
+                                <div class="card-hidden-container">
+                                    <div class="card-hidden">
+                                        <a class="hidden-button">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a class="hidden-button">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <img src="img/07.jpg" class="img">
+                            </div>
+                            <div class="text-item">
+                                <span class="img-text">Single Product / Brand Store</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section class="detail">
+            <div class="container detail-container">
+                <div class="content">
+                    <div class="left-content">
+                        <div class="content-header">
+                            <div class="content-header-up">
+                                <span class="item-1">Complete</span>
+                                <span class="item-2">E-Commerce</span>
+                            </div>
+                            <div class="content-header-down">
+                                <span class="item-2">Front-End</span>
+                                <span class="item-1">Solution</span>
+                            </div>
+                        </div>
+                        <div class="content-info">All you need for your next e-commerce project</div>
+                        <ul class="content-list">
+                            <li>
+                                <i style="margin-right: 8px; color: #42d697" class="fa-regular fa-circle-check"></i>Shop
+                                Grid / List Layout Options
+                            </li>
+                            <li>
+                                <i style="margin-right: 8px; color: #42d697"
+                                    class="fa-regular fa-circle-check"></i>Multiple Product Page Variations
+                            </li>
+                            <li>
+                                <i style="margin-right: 8px; color: #42d697"
+                                    class="fa-regular fa-circle-check"></i>Complete Order Workflow: Cart + Checkout
+                            </li>
+                            <li>
+                                <i style="margin-right: 8px; color: #42d697" class="fa-regular fa-circle-check"></i>Shop
+                                Customer Account Pages
+                            </li>
+                            <li>
+                                <i style="margin-right: 8px; color: #42d697"
+                                    class="fa-regular fa-circle-check"></i>Vendor Dashboard for Multi-vendor
+                                Marketplaces
+                            </li>
+                            <li>
+                                <i style="margin-right: 8px; color: #42d697"
+                                    class="fa-regular fa-circle-check"></i>Ready for any Content: Fashion, Electronics,
+                                Digital (Downloadable) Products, etc.
+                            </li>
+                            <li>
+                                <i style="margin-right: 8px; color: #42d697" class="fa-regular fa-circle-check"></i>Blog
+                                Pages: Blog Layouts + Single Post
+                            </li>
+                            <li>
+                                <i style="margin-right: 8px; color: #42d697" class="fa-regular fa-circle-check"></i>Help
+                                Center / Support Pages
+                            </li>
+                            <li>
+                                <i style="margin-right: 8px; color: #42d697"
+                                    class="fa-regular fa-circle-check"></i>Secondary Pages: About, Contacts, 404, etc.
+                            </li>
+                            <li>
+                                <i style="margin-right: 8px; color: #42d697" class="fa-regular fa-circle-check"></i>40+
+                                Flexible Components
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right-content">
+                        <img src="img/pages-showcase.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mobilefont">
+            <div class="container mobilefont-container">
+                <div class="mobilefont-items">
+                    <div class="left-items">
+                        <span class="version">From v1.2</span>
+                        <div class="header-item">
+                            <div class="header-text-up">
+                                <span class="left-text">Even More</span>
+                                <span class="right-text">Mobile Friendly</span>
+                            </div>
+                            <span class="header-text-down">Interface</span>
+                        </div>
+                        <p class="info-text">
+                            New <span>Toolbar</span> designed specifically for handheld devices to further improve user
+                            experience.
+                        </p>
+                        <p class="QR-text">
+                            Scan QR code below to test on your device:
+                        </p>
+                        <div class="QR-img-container">
+                            <img src="img/qrcode.png" width="150" alt="QR code">
+                        </div>
+
+                    </div>
+                    <div class="right-items">
+                        <img src="img/handheld-toolbar.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="feature">
+            <div class="container feature-container">
+                <div class="feature-header">
+                    <p class="header-text">
+                        Cartzilla Feature <span>Highlights</span>
+                    </p>
+                </div>
+                <div class="feature-items">
+                    <div class="feature-item">
+                        <img src="img/feature_1.png" width="90" alt="Gulp icon">
+                        <h1 class="feature-item-header">Kick-start Your Development</h1>
+                        <p class="feature-item-content">
+                            Start your development process fast and easy with Node.js and Gulp setup. Configuration
+                            files are included in download package. Full tasks automation.
+                        </p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="img/feature_2.png" width="90" alt="Sass icon">
+                        <h1 class="feature-item-header">Easy to Customize with Sass</h1>
+                        <p class="feature-item-content">
+                            Cartzilla is built using Sass. Easily change colors, typography and much more. It is the
+                            most
+                            mature, stable, and powerful CSS extension language in the world.
+                        </p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="img/feature_3.png" width="90" alt="Pug icon">
+                        <h1 class="feature-item-header">Pug - Node Templating Engine</h1>
+                        <p class="feature-item-content">
+                            No need to write huge amount of HTML, if you don’t want to. Pug provides features not
+                            available
+                            in plain HTML like variables, includes, mixins, functions, etc.
+                        </p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="img/feature_4.png" width="90" alt="Boostrap icon">
+                        <h1 class="feature-item-header">Built With Bootstrap 5</h1>
+                        <p class="feature-item-content">
+                            Cartzilla is the powerful e-commerce front-end solution based on Bootstrap 5 - the world's
+                            most
+                            popular responsive, mobile-first front-end component library.
+                        </p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="img/feature_5.png" width="90" alt="Web Component icon">
+                        <h1 class="feature-item-header">40+ Flexible Components</h1>
+                        <p class="feature-item-content">
+                            Besides styling all default Bootstrap 5 components Cartzilla introduces lots of new
+                            flexible,
+                            customizable and reusable elements you can use across the website.
+                        </p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="img/feature_6.png" width="90" alt="Mobile Friendly Icon">
+                        <h1 class="feature-item-header">Mobile Friendly Interface</h1>
+                        <p class="feature-item-content">
+                            It's not a surprise that nowadays over 70% of users shop online using their mobile devices.
+                            Cartzilla is 100% responsive and optimized for small touch screens.
+                        </p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="img/feature_7.png" width="90" alt="Goolge Fonts icon">
+                        <h1 class="feature-item-header">Google Fonts</h1>
+                        <p class="feature-item-content">
+                            Cartzilla uses Google fonts which are free, fast to load and of very high quality. Currently
+                            Google fonts library includes 870+ font families to choose from.
+                        </p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="img/feature_8.png" width="90" alt="Touch icon">
+                        <h1 class="feature-item-header">Touch-enabled Sliders</h1>
+                        <p class="feature-item-content">
+                            In the era of touch screens it's important to ensure great user experience on handheld
+                            devices,
+                            especially when it comes to such frequently used interface component as slider.
+                        </p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="img/feature_9.png" width="90" alt="Vector icon">
+                        <h1 class="feature-item-header">Vector Based HD Ready Icons</h1>
+                        <p class="feature-item-content">
+                            Cartzilla is equiped with font-based icon pack to ensure that infographics and interface
+                            icons look sharp on any device with any screen resolution and pixel density.
+                        </p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="img/feature_10.png" width="90" alt="HTML5 icon">
+                        <h1 class="feature-item-header">W3C Valid HTML Code</h1>
+                        <p class="feature-item-content">
+                            All HTML files are checked via W3C validator to ensure 100% valid code. As you probably know
+                            invalid HTML limits innovation, but Cartzilla is innovative at its core.
+                        </p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="img/feature_11.png" width="90" alt="JavaScript icon">
+                        <h1 class="feature-item-header">Future-proof JavaScript</h1>
+                        <p class="feature-item-content">
+                            Cartzilla core scripts as well as all dependencies are written in vanilla JS. And now with
+                            Bootstrap 5 we finally drops jQuery and uses ES6 modules.
+                        </p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="img/feature_12.png" width="90" alt="Documentation icon">
+                        <h1 class="feature-item-header">Detailed Documentation</h1>
+                        <p class="feature-item-content">
+                            Download package includes links to online documentation. It covers all crucial information
+                            about how to get started, customize template and components usage.
+                        </p>
+                    </div>
+                </div>
+                <span class="last-text">And much more...</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <span class="header-text-up">Still not convinced?</span>
+            <span class="header-text-down">Add premium support and lifetime updates to this.</span>
+            <button class="button">
+                <a class="button-buy">
+                    <i style="font-size: 13px; margin-right: 8px" class="fa-solid fa-cart-shopping"></i> Buy Cartzilla
+                </a>
+            </button>
+            <hr>
+            <div class="last-text">© All rights reserved. Made by
+                <a href="">Create Studio</a>
+            </div>
         </div>
-    </section>
+        
+    </footer>
 </body>
 
 </html>
